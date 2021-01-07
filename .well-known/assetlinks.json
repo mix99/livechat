@@ -6,20 +6,4 @@
     "sha256_cert_fingerprints":
     ["80:F2:F7:5A:58:F0:0E:67:EF:9A:2C:87:92:02:BF:69:7D:DA:A3:13:4F:B6:63:8B:00:52:46:F3:CA:F3:CF:18"]
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://www.lichat.me"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "chat.video.pagal",
-    "sha256_cert_fingerprints":
-    ["80:F2:F7:5A:58:F0:0E:67:EF:9A:2C:87:92:02:BF:69:7D:DA:A3:13:4F:B6:63:8B:00:52:46:F3:CA:F3:CF:18"]
-  }
 }]
